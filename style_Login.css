@@ -1,0 +1,215 @@
+:root{
+	--body-background-color: #ffffff;
+	--font-color: #4e4e4e;
+	--border-color : #dadada;
+	--Man-u-color: #C70101;
+	--Man-u-border-color: #C70101;
+}
+*{
+	margin:0;
+	padding:0;
+}
+
+
+
+
+body{
+	background:var(--background-color);
+}
+
+.main{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	margin-top: 21px;
+}
+.main .wrapA{
+	width:768px;
+
+
+}
+
+.main .wrapA .LogoWrap{
+	padding-top:55px;
+}
+.main .wrapA .LogoWrap img
+{
+	width: 20%;
+	height: 20%;
+}
+
+.main .wrapA header .wrapB{
+	display:flex;
+	justify-content:flex-end;
+}
+
+.main .wrapA header .LogoWrap{
+	display:flex;	
+	flex-direction: column;
+	align-items: center;
+}
+.LoginA{
+	padding-top: 60px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.LoginB{
+	width: 465px;
+	height :48px;
+	border: solid 1px var(	--border-color );
+	background: white;
+}
+.password-wrap{
+	margin-top: 13px;
+	width: 465px;
+	height :48px;
+	border: solid 1px var(	--border-color );
+	background: white;
+}
+.password-new{
+	border: none;
+	width:430px;
+	margin-top: 10px;
+	font-size: 14px;
+	margin-left: 10px;
+	height:30px;
+
+}
+.LoginB input{
+	border: none;
+	width:430px;
+	margin-top: 10px;
+	font-size: 14px;
+	margin-left: 10px;
+	height:30px;
+}
+.ButtonA {
+	padding-top: 13px;
+	
+}
+.ButtonA button{
+	width: 465px;
+	height :48px;
+	font-size: 18px;
+	background: var(--Man-u-color);
+	color: white;
+	border: solid 1px var(--Man-u-border-color);
+	border-radius: 25px;
+	margin: 20px;
+}
+.LoginStayA{
+	width: 465px;
+	height: 52px;
+	
+	display: flex;
+	font-size: 15px;
+	color: #4e4e4e;
+	align-items: center;
+	justify-content: flex-start;
+	border-bottom: solid 1px var(--border-color);
+}
+.LoginStayA i{
+	font-size: 25px;
+	color: #9ba1a3;
+}
+.LoginStayA span{
+	padding-left: 5px;
+	line-height: 25px;
+}
+
+.Intro{
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 40px;
+
+}
+.Intro h2{
+	font-size: 20px;
+}
+.Intro .ThreeButton
+{
+	padding-top:25px;
+	list-style: none;
+	width: 465px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.Intro .ThreeButton li{
+	padding-bottom: 10px;
+}
+.Intro .ThreeButton li button{
+	width: 465px;
+	height: 56px;
+	border: solid 1px var(--border-color);
+	text-align: left;
+	background: white;
+}
+.Intro .ThreeButton li button i{
+	padding-left: 15px;
+	font-size: 20px;
+}
+.Apple
+{
+	color:var(--Man-u-color);
+}
+
+.Google{
+	color:var(--Man-u-color);
+}
+.Facebook
+{
+	color:#4064ac;
+}
+
+.Intro .ThreeButton li button span{
+	padding-left: 20px;
+	margin-top: 30px;
+	font-size: 18px;
+}
+.Intro .id-pw_forgot{
+	color:var(--font-color);
+	font-size: 14px;
+	padding-top: 10px;
+
+}
+footer{
+   
+	padding-top: 95px;
+	padding-bottom: 15px;
+
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	width:768px;
+
+
+
+}
+.Man_utd{
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 15px;
+
+
+}
+
+footer .Man_utd span img{
+	width: 60px;
+	
+	height: 60px;
+}
+footer p{
+	font-size: 15px;
+	text-align: center;
+	padding: 60px;
+	
+}

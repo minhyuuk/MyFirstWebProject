@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  nav h1 {
+    display: inline-block;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  nav ul li a p:hover {
+    color : black;
+    text-decoration: underline;
+    
+  }
+  nav ul a:hover{
+    color:wheat;
+    text-decoration:underline;    
+  }
+  nav ul,li {
+    position: relative;
+    margin: 5px;
+    top: -8px;
+    left: 40%;
+    display: inline-block;
+    list-style: none;
+    color: aliceblue;
+    
+  }
+  
+  nav img {
+    margin-top: 5%;
+    width: 35%;
+    height: 35%;
+  }
+  header {
+    width: 100%;
+    height: 5%;
+    background-color: #C70101;
+    padding: 0 10%;
+  }
+  section article span h2{
+    color: black;
+    margin-top: 50px;
+    text-align: center;
+  }
+  section article table{
+    top: 250px;
+    width: 1000px;
+    height: 900px;
+    padding: 20px;
+    border: 5px solid black;
+    position: absolute;
+    
+    left: 50%;
+    right: 50%;
+    margin-left: -500px;
+    
+  }
+  section article table tr td{
+    margin: 0 auto;
+    border: 1.5px solid #C70101;
+  }
+  section article table tr .TextAlign{
+    text-align: center;
+    color: #ffe500;
+    background-color: #DA020E;
+  }
+  section article table tr .Emphasize{
+  color : #0275D8;
+  }
+  section article table tr .RedDevils{
+    color : #C70101;
+  }
+  section article table tr td .LiverPool{
+    color:#D00027;
+  }
+  section article table tr td .Lizz{
+    color : #0061AA;
+  }
+  section article table tr td .ManCity{
+    color : #98C5E9;
+  }
+
+  section article table tr .ImageBorder{
+    border: none;
+  }
+  section article table tr .Blue{
+    color : #0275D8;
+  }
+  section article table tr td img{
+    width: 200px;
+    height: 200px;
+    margin-left: 130%;
+    margin-bottom: 30px;
+  }
+
+
+  body .Uniform1 p{
+    float: right;
+    position: absolute;
+    left: 1550px;
+    bottom: 305px;
+    border: 1px solid darkgoldenrod;
+  
+  }
+  body .Uniform2 p{
+
+    float: right;
+    position: absolute;
+    left: 1550px;
+    bottom: -213px;
+    border: 1px solid darkgoldenrod;
+
+  }
+  body .Ji-sung img{
+
+    width: 400px;
+    height: 550px;
+
+  }
+  body .Ji-sung p{
+
+    float: left;
+    position: absolute;
+    right: 1477px;
+    bottom: -50px;
+
+  }
+  footer p{
+    background-color: #2A2A2A;
+    height:30px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 20px;
+    font-size: 15px;
+    color: darkgoldenrod;
+    text-decoration: underline darkgoldenrod;
+    
+    
+  }
+   footer{
+    background-color:  #C70101;
+    color: black;
+    height:30px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: -300px;
+    font-size: 20px;
+  }
+  
